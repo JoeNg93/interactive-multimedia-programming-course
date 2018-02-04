@@ -1,0 +1,13 @@
+#assignment-2 img {
+  width: 80%;
+  height: 50%;
+}
+
+#assignment-2 figure {
+  font-style: italic;
+
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+  text-align: center;
+}

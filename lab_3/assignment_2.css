@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 6em;
+}
+
+#addBtn {
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+#persons span {
+  margin: 1em .3em 0 .3em;
+}
