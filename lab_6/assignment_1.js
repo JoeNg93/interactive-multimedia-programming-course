@@ -1,7 +1,7 @@
 $('#btn-show').on('click', function() {
   var photoTag = $('#photo-tag-input').val();
   var flickerAPI =
-    'http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?';
+    'https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?';
   $.getJSON(flickerAPI, {
     tags: photoTag,
     tagmode: 'any',

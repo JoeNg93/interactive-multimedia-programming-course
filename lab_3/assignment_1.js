@@ -1,4 +1,4 @@
-var connection = new WebSocket('ws://obscure-waters-98157.herokuapp.com');
+var connection = new WebSocket('wss://obscure-waters-98157.herokuapp.com');
 
 var messageElements = [];
 
