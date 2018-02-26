@@ -5,77 +5,166 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/public/css/normalize.min.css">
+    <link rel="stylesheet" href="/public/css/bulma.min.css">
+    <link rel="stylesheet" href="/public/css/tachyons.min.css">
     <title>Lab 1</title>
   </head>
   <body>
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          Study Portfolio
+        </a>
+      </div>
 
-    <h2>Assignment 1</h2>
-    <ul>
-      <li>
-        <b>HTML</b>:
-        HTML stands for "HyperText Markup Language", which is a kind of language used by Web Browser
-        to describe web pages using normal text. It contains a set of syntax that can be understand & parse by
-        Web Browser to proper format pages
-      </li>
-      <li>
-        <b>CSS</b>:
-        CSS stands for "Cascading Style Sheet", which is a kind language which can be parsed by Web Browser
-        to define how the pages should be layout, displayed and formatted on digital screens.
-      </li>
-      <li>
-        <b>JavaScript</b>:
-        JavaScript is a programming language. It's mostly used in Web Browser and is the most popular programming
-        language
-        for Web Development. It can be used together with HTML, CSS to build web pages and the role of JS is to
-        define behaviors of web pages. Nowadays, JavaScript is used everywhere, from UI to Server Side, Desktop App and
-        even
-        Embedded System
-      </li>
-      <li>
-        <b>HTTP</b>:
-        HTTP stands for "HyperText Transfer Protocol", which is a protocol built on top of TCP protocol. It defines a
-        set
-        of
-        standards which can be agreed by clients and servers in order to communicate to each other. It's mostly used for
-        WWW (the Internet) system where Web Browsers act as clients and other computers act as servers. Every request
-        made
-        to servers must follow HTTP Protocol and also the responses from servers.
-      </li>
-      <li>
-        <b>HTML5</b>:
-        HTML5 is the newest version of HTML. It extends HTML functionality by adding some features such as
-        geolocation, video and graphics, etc. Those are things that are came as plugins in the past for HTML.
-      </li>
-      <li>
-        <b>Dynamic HTML</b>:
-        Dynamic HTML is a term which combines HTML + CSS + JS altogether to make a web page more interactive without the
-        need of
-        server side. Therefore, it can improve user experience. One example could be that when you hover your mouse
-        to a button, the button becomes a little bit bigger and the background color of a button change slowly from
-        original
-        color to another
-      </li>
-    </ul>
+      <div class="navbar-menu is-active">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/">Home</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">Labs</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/lab_1/index.html">Lab 1</a>
+              <a class="navbar-item" href="/lab_2/index.html">Lab 2</a>
+              <a class="navbar-item" href="/lab_3/index.html">Lab 3</a>
+              <a class="navbar-item" href="/lab_4/index.html">Lab 4</a>
+              <a class="navbar-item" href="/lab_5/index.html">Lab 5</a>
+              <a class="navbar-item" href="/lab_6/index.html">Lab 6</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-    <h2>Assignment 2</h2>
-    <p>
-      Code conventions can be used to make sure that the code written is consistent, it should be feel like the
-      code is writen by one person even there is a whole team behind it. By making sure everyone follow the convention
-      and have the same mindset, they can easily understand the structure of the code writen by other members in the
-      team.
-      Personally, I feel that code convention is a thing that a programmer need to learn before making his first
-      step to the IT industry. I'm going to follow <a href="http://codeguide.co">this guide</a> convention for HTML and
-      CSS
-    </p>
+    <nav class="breadcrumb ma3" aria-label="breadcrumbs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="is-active"><a href="#" aria-current="page">Lab 1</a></li>
+      </ul>
+    </nav>
 
-    <h3>Assignment 3</h3>
-    <p><a href="assignment_3.html">Link to assignment 3</a></p>
+    <div class="ma3 content">
+      <h1>Assignment 1</h1>
+      <article class="message">
+        <div class="message-header">
+          <p>What I have learned</p>
+        </div>
+        <div class="message-body">
+          Definition of Web related terminologies
+        </div>
+      </article>
+      <ul>
+        <li>
+          <b>HTML</b>:
+          HTML stands for "HyperText Markup Language", which is a kind of language used by Web Browser
+          to describe web pages using normal text. It contains a set of syntax that can be understand & parse by
+          Web Browser to proper format pages
+        </li>
+        <li>
+          <b>CSS</b>:
+          CSS stands for "Cascading Style Sheet", which is a kind language which can be parsed by Web Browser
+          to define how the pages should be layout, displayed and formatted on digital screens.
+        </li>
+        <li>
+          <b>JavaScript</b>:
+          JavaScript is a programming language. It's mostly used in Web Browser and is the most popular programming
+          language
+          for Web Development. It can be used together with HTML, CSS to build web pages and the role of JS is to
+          define behaviors of web pages. Nowadays, JavaScript is used everywhere, from UI to Server Side, Desktop App
+          and
+          even
+          Embedded System
+        </li>
+        <li>
+          <b>HTTP</b>:
+          HTTP stands for "HyperText Transfer Protocol", which is a protocol built on top of TCP protocol. It defines a
+          set
+          of
+          standards which can be agreed by clients and servers in order to communicate to each other. It's mostly used
+          for
+          WWW (the Internet) system where Web Browsers act as clients and other computers act as servers. Every request
+          made
+          to servers must follow HTTP Protocol and also the responses from servers.
+        </li>
+        <li>
+          <b>HTML5</b>:
+          HTML5 is the newest version of HTML. It extends HTML functionality by adding some features such as
+          geolocation, video and graphics, etc. Those are things that are came as plugins in the past for HTML.
+        </li>
+        <li>
+          <b>Dynamic HTML</b>:
+          Dynamic HTML is a term which combines HTML + CSS + JS altogether to make a web page more interactive without
+          the
+          need of
+          server side. Therefore, it can improve user experience. One example could be that when you hover your mouse
+          to a button, the button becomes a little bit bigger and the background color of a button change slowly from
+          original
+          color to another
+        </li>
+      </ul>
 
-    <h4>Assignment 4</h4>
-    <p>Developer tools are really powerful companion for every Web Developer. I have grasp a basic knowledge of it</p>
+      <h1>Assignment 2</h1>
+      <article class="message">
+        <div class="message-header">
+          <p>What I have learned</p>
+        </div>
+        <div class="message-body">
+          Code convention is really important
+        </div>
+      </article>
+      <p>
+        Code conventions can be used to make sure that the code written is consistent, it should be feel like the
+        code is writen by one person even there is a whole team behind it. By making sure everyone follow the convention
+        and have the same mindset, they can easily understand the structure of the code writen by other members in the
+        team.
+        Personally, I feel that code convention is a thing that a programmer need to learn before making his first
+        step to the IT industry. I'm going to follow <a href="http://codeguide.co">this guide</a> convention for HTML
+        and
+        CSS
+      </p>
 
-    <h4>Assignment 5</h4>
-    <p><a href="assignment_5.html">Link to assignment 5</a></p>
+      <h1>Assignment 3</h1>
+      <article class="message">
+        <div class="message-header">
+          <p>What I have learned</p>
+        </div>
+        <div class="message-body">
+          How to create a basic HTML page
+        </div>
+      </article>
+      <p><a href="assignment_3.html">Link to assignment 3</a></p>
+
+      <h1>Assignment 4</h1>
+      <article class="message">
+        <div class="message-header">
+          <p>What I have learned</p>
+        </div>
+        <div class="message-body">
+          How to use developer tools
+        </div>
+      </article>
+      <p>Developer tools are really powerful companion for every Web Developer. I have grasp a basic knowledge of it</p>
+
+      <h1>Assignment 5</h1>
+      <article class="message">
+        <div class="message-header">
+          <p>What I have learned</p>
+        </div>
+        <div class="message-body">
+          Basic of JavaScript, how to integrate it to HTML pages
+        </div>
+      </article>
+      <p><a href="assignment_5.html">Link to assignment 5</a></p>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            Study Portfolio - Joe Nguyen - 2018
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
