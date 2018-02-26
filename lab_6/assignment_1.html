@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/public/css/normalize.min.css">
+    <link rel="stylesheet" href="/public/css/bulma.min.css">
+    <link rel="stylesheet" href="/public/css/tachyons.min.css">
+    <title>Assignment 1</title>
+    <style>
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="columns mt2 mr1 ml1">
+      <div class="column is-4 is-offset-4">
+        <div class="field is-grouped">
+          <div class="control w-80">
+            <input class="input" id="photo-tag-input" type="text" placeholder="Enter image tag...">
+          </div>
+          <div class="control">
+            <button class="button is-link" id="btn-show">Show</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mr3-m ml3-m" id="photo-container">
+
+    </div>
+    <script src="/public/js/jquery-3.1.1.min.js"></script>
+    <script src="assignment_1.js"></script>
+  </body>
+</html>
